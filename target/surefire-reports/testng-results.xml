@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="42258" started-at="2021-06-27T01:20:15 IST" finished-at="2021-06-27T01:20:57 IST">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.PositiveTest@23e028a9]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Test" duration-ms="42258" started-at="2021-06-27T01:20:15 IST" finished-at="2021-06-27T01:20:57 IST">
+      <class name="runners.PositiveTest">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:runners.PositiveTest@23e028a9]" name="setUpClass" is-config="true" duration-ms="591" started-at="2021-06-27T01:20:15 IST" finished-at="2021-06-27T01:20:16 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.PositiveTest@23e028a9]" name="runScenario" duration-ms="41511" started-at="2021-06-27T01:20:16 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-06-27T01:20:57 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate Search Cars Page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Acceptance testing to validate Search Cars Page is working.]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:runners.PositiveTest@23e028a9]" name="tearDownClass" is-config="true" duration-ms="119" started-at="2021-06-27T01:20:57 IST" finished-at="2021-06-27T01:20:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runners.PositiveTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

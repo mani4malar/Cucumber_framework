@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="36.628">
+<testcase classname="Acceptance testing to validate Search Cars Page is working." name="Validate Search Cars Page" time="36.407">
+<failure message="Failing the step" type="java.lang.AssertionError"><![CDATA[Given I am on the Home Page "https://www.carsguide.com.au" of CarsGuide Website.passed
+When I move to Car For Sale Menu............................................failed
+
+StackTrace:
+java.lang.AssertionError: Failing the step
+	at org.testng.Assert.fail(Assert.java:96)
+	at steps.SearchCarsSteps.i_move_to_Car_For_Sale_Menu(SearchCarsSteps.java:33)
+	at ✽.I move to Car For Sale Menu(file:///C:/Users/way2automation/Downloads/Compressed/Cucumber_framework/Cucumber_framework/src/test/resources/FeatureFiles/SearchCars.feature:10)
+]]></failure>
+</testcase>
+</testsuite>
